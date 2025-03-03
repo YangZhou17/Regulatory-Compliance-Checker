@@ -51,6 +51,8 @@ The Regulatory Compliance Checker is designed to streamline the process of verif
 
 ## Installation and Setup
 
+- **Python 3.12**
+
 1. **System Dependencies:**
 
     Before installing the Python packages, install the following system packages using apt:
@@ -107,7 +109,7 @@ The Regulatory Compliance Checker is designed to streamline the process of verif
 Run the main script to execute the entire pipeline:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 - If `REPROCESS_DOCS` is set to `True` in your configuration, the script will process the regulatory PDF files before generating tasks.
